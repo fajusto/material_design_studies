@@ -275,15 +275,6 @@ class _BackdropState extends State<Backdrop>
             );
           },
         ),
-        IconButton(
-          icon: Icon(
-            Icons.tune,
-            semanticLabel: 'filter',
-          ),
-          onPressed: () {
-            // TODO: Add open login (104)
-          },
-        ),
       ],
     );
     return Scaffold(
